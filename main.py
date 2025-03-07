@@ -5,6 +5,7 @@ screen.screensize(500,500)
 screen.bgcolor("tan")
 t=turtle.Turtle()
 t.speed(0)
+t.hideturtle()
 
 t.setheading(0)
 t.penup()
@@ -48,4 +49,5 @@ t.goto(0,-100)#1
 t.pendown()
 t.write("2026",font=("Arial",30,"bold italic"),align="center")
 
+t.hideturtle()
 turtle.done()
